@@ -4,13 +4,21 @@ import { View } from 'react-native';
 
 import AuthScreen from './AuthScreen';
 import HomeScreen from './HomeScreen';
+import BloodGroupScreen from './BloodGroupScreen';
 
 class Router extends Component {
   render() {
+    const HomeFlow = createSwitchNavigator(
+      {
+        bloodgroup: BloodGroupScreen,
+        home: HomeScreen,
+      },
+      {}
+    );
     const AppFlow = createSwitchNavigator(
       {
         auth: AuthScreen,
-        main: HomeScreen,
+        main: HomeFlow,
       },
       {}
     );
