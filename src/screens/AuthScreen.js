@@ -36,11 +36,10 @@ class AuthScreen extends Component {
 
   async componentDidMount() {
     await Font.loadAsync({
-      'poppins-bold': require('../../assets/fonts/Poppins-Bold.otf'),
-      'poppins-extralight': require('../../assets/fonts/Poppins-ExtraLight.otf'),
-      'poppins-light': require('../../assets/fonts/Poppins-Light.otf'),
-      'poppins-regular': require('../../assets/fonts/Poppins-Regular.otf'),
-      'poppins-medium': require('../../assets/fonts/Poppins-Medium.otf'),
+      'lato-bold': require('../../assets/fonts/Lato-Bold.ttf'),
+      'lato-black': require('../../assets/fonts/Lato-Black.ttf'),
+      'lato-light': require('../../assets/fonts/Lato-Light.ttf'),
+      'lato-regular': require('../../assets/fonts/Lato-Regular.ttf'),
       icomoon: require('../../assets/fonts/icomoon.ttf'),
     });
 

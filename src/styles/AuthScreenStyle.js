@@ -58,12 +58,12 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   LoginSelectionText: {
-    fontFamily: 'poppins-bold',
+    fontFamily: 'lato-black',
     fontSize: 20,
     color: 'rgba(256,256,256,0.56)',
   },
   SignupSelectionText: {
-    fontFamily: 'poppins-bold',
+    fontFamily: 'lato-black',
     fontSize: 20,
     color: 'rgba(256,256,256,0.56)',
     textAlign: 'right',
@@ -98,13 +98,13 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
   LoginDividerLine: {
-    fontFamily: 'poppins-light',
+    fontFamily: 'lato-regular',
     fontSize: 17,
     textAlign: 'center',
     color: '#979797',
   },
   LoginDividerText: {
-    fontFamily: 'poppins-light',
+    fontFamily: 'lato-regular',
     fontSize: 17,
     textAlign: 'center',
     color: '#000000',
@@ -128,7 +128,7 @@ const styles = StyleSheet.create({
     marginTop: Platform.OS === 'android' ? 5 : 0,
     marginLeft: 15,
     height: 20,
-    fontFamily: 'poppins-light',
+    fontFamily: 'lato-regular',
     fontSize: 15,
   },
   Button: {
@@ -141,7 +141,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#CF0003',
   },
   ButtonText: {
-    fontFamily: 'poppins-light',
+    fontFamily: 'lato-regular',
     fontSize: 17,
     textAlign: 'center',
     color: '#FFFFFF',
@@ -150,14 +150,14 @@ const styles = StyleSheet.create({
     marginTop: 15,
   },
   ForgotPassText: {
-    fontFamily: 'poppins-extralight',
+    fontFamily: 'lato-light',
     fontSize: 15,
     textAlign: 'center',
     color: '#000000',
   },
   ForgotPasswordCardText: {
     marginTop: 30,
-    fontFamily: 'poppins-light',
+    fontFamily: 'lato-regular',
     fontSize: 14,
     textAlign: 'center',
     color: '#979797',
@@ -168,7 +168,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   ResetPasswordHeadingText: {
-    fontFamily: 'poppins-light',
+    fontFamily: 'lato-regular',
     fontSize: 16,
     marginLeft: 10,
     color: '#000000',
@@ -182,7 +182,7 @@ const styles = StyleSheet.create({
     height: '45%',
   },
   ResetPasswordSuccessCardText: {
-    fontFamily: 'poppins-light',
+    fontFamily: 'lato-regular',
     fontSize: 14,
     textAlign: 'center',
     color: '#000000',
