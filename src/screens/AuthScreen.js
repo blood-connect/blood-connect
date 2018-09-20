@@ -325,8 +325,6 @@ class AuthScreen extends Component {
                     end={[0.75, 1]}
                   />
                 </View>
-                <View style={styles.MiddleBack} />
-                <View style={styles.BottomBack} />
               </View>
               <View style={styles.Front}>
                 <Image source={this.state.appIcon} resizeMode="contain" style={styles.AppIcon} />

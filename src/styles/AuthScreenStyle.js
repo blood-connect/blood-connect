@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
   },
   TopBack: {
     backgroundColor: '#FF5F35',
-    flex: 2,
+    flex: 8,
     borderWidth: 0,
     zIndex: 1,
   },
@@ -19,21 +19,6 @@ const styles = StyleSheet.create({
     height: '100%',
     opacity: 0.4,
     zIndex: 2,
-  },
-  MiddleBack: {
-    backgroundColor: '#F5F5F5',
-    borderRadius: 50,
-    width: '11%',
-    height: 50,
-    transform: [{ scaleX: 10 }],
-    alignSelf: 'center',
-    zIndex: 1,
-    top: -20,
-  },
-  BottomBack: {
-    backgroundColor: '#F5F5F5',
-    flex: 2,
-    zIndex: 1,
   },
   Front: {
     height: '100%',
