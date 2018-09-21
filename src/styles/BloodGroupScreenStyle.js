@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import { Platform, StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
   Back: {
@@ -16,15 +16,16 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+    marginTop: Platform.OS === 'android' ? 20 : 0,
   },
   Heading: {
     fontFamily: 'lato-light',
-    fontSize: 30,
+    fontSize: 40,
     textAlign: 'center',
   },
   SubHeading: {
     fontFamily: 'lato-regular',
-    fontSize: 13,
+    fontSize: 16,
     textAlign: 'center',
     color: '#AFAFAF',
   },
@@ -55,7 +56,7 @@ const styles = StyleSheet.create({
   },
   BloodGroupText: {
     textAlign: 'center',
-    fontSize: 40,
+    fontSize: 35,
     fontFamily: 'lato-light',
     color: '#FFFFFF',
   },
